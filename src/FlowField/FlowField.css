@@ -1,0 +1,63 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  text-align: center;
+}
+
+.text {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.currency {
+  color: white;
+}
+
+.red {
+  color: var(--primary-color);
+}
+
+.algo-blue {
+  color: var(--algo-blue);
+}
+
+.xmr-orange {
+  color: var(--xmr-orange);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50vh;
+}
+
+.custom-input {
+  font-family: "Jersey20", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  font-size: 3rem;
+  padding: 0.5rem;
+  border: 2px dashed var(--primary-color);
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Remove the up/down arrows */
+.custom-input::-webkit-outer-spin-button,
+.custom-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom-input[type="number"] {
+  -moz-appearance: textfield; /* Remove the up/down arrows for Firefox */
+}

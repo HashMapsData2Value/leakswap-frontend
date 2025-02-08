@@ -12,5 +12,7 @@ body {
 }
 
 :root {
-  --primary-color: #d42727; /* Define the primary color variable */
+  --primary-color: #d42727;
+  --algo-blue: rgb(26, 16, 219);
+  --xmr-orange: rgb(237, 91, 38);
 }

@@ -1,6 +1,6 @@
 import './App.css';
-import leakswapLogo from '../public/swap-circle.svg';
-import Button from './Button';
+import leakswapLogo from '../../public/swap-circle.svg';
+import FlowField from '../FlowField/FlowField';
 
 function App() {
   return (
@@ -25,13 +25,7 @@ function App() {
           </ul>
         </nav>
       </header>
-      <main className="main-content">
-        <h1 className="question">What do you want?</h1>
-        <div className="button-container">
-          <Button text="I Want Algo" onClick={() => alert('Button clicked!')} />
-          <Button text="I Want XMR" onClick={() => alert('Button clicked!')} />
-        </div>
-      </main>
+      <FlowField/>
     </>
   );
 }
