@@ -10,3 +10,7 @@ body {
     sans-serif;
   background-color: #000000;
 }
+
+:root {
+  --primary-color: #d42727; /* Define the primary color variable */
+}

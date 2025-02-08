@@ -1,11 +1,12 @@
 import './App.css';
 import leakswapLogo from '../public/swap-circle.svg';
+import Button from './Button';
 
 function App() {
   return (
     <>
       <header className="header">
-      <div className="logo-container">
+        <div className="logo-container">
           <h1 className="logo-text">LEAK.SWAP</h1>
           <img src={leakswapLogo} alt="LeakSwap Logo" className="logo-image" />
         </div>
@@ -24,7 +25,13 @@ function App() {
           </ul>
         </nav>
       </header>
-      <h1>hallo</h1>
+      <main className="main-content">
+        <h1 className="question">What do you want?</h1>
+        <div className="button-container">
+          <Button text="I Want Algo" onClick={() => alert('Button clicked!')} />
+          <Button text="I Want XMR" onClick={() => alert('Button clicked!')} />
+        </div>
+      </main>
     </>
   );
 }

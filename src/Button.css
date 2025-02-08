@@ -1,0 +1,16 @@
+.custom-button {
+  background-color: transparent;
+  color: white;
+  border: 2px dashed var(--primary-color);
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: "Jersey20", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+}
+
+.custom-button:hover {
+  background-color: var(--primary-color);
+}
