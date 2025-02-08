@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({ text, onClick }) => {
   return (
-    <button className="swap-button" onClick={onClick}>
+    <button className="xmr-button" onClick={onClick}>
       {text}
     </button>
   );

@@ -35,6 +35,13 @@
   width: 50vh;
 }
 
+.return-icon {
+  margin-right: 0.5rem;
+  vertical-align: super;
+  stroke: white;
+  cursor: pointer;
+}
+
 .custom-input {
   font-family: "Jersey20", Inter, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
@@ -43,7 +50,6 @@
   border: 2px dashed var(--primary-color);
   border-radius: 5px;
   background-color: transparent;
-  color: white;
   margin: 1rem 0;
   width: 100%;
   max-width: 300px;

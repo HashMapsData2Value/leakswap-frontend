@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css';
+import './Buttons.css';
 
 interface ButtonProps {
   text: string;
@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({ text, onClick }) => {
   return (
-    <button className="custom-button" onClick={onClick}>
+    <button className="algo-button" onClick={onClick}>
       {text}
     </button>
   );
