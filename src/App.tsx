@@ -12,8 +12,15 @@ function App() {
         <nav className="navbar">
           <ul>
             <li><a href="#docs">Docs</a></li>
-            <li><a href="#community">Community</a></li>
-            <li><a href="#github">Github</a></li>
+            <li className="dropdown">
+              <a href="" className="dropbtn">Community</a>
+              <div className="dropdown-content">
+                <a href="https://edaga.io">Edaga.io</a>
+                <a href="https://bsky.app/profile/hashmapsdata2value.bsky.social">Bluesky</a>
+                <a href="https://x.com/HMD2V">Twitter</a>
+              </div>
+            </li>
+            <li><a href="https://github.com/HashMapsData2Value/LeakSwap">Github</a></li>
           </ul>
         </nav>
       </header>
